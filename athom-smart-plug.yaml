@@ -38,7 +38,7 @@ dashboard_import:
 
 binary_sensor:
   - platform: status
-    id: status
+    id: status_sensor
     name: "${friendly_name} Status"
 
   - platform: gpio
