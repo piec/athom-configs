@@ -38,9 +38,11 @@ dashboard_import:
 
 binary_sensor:
   - platform: status
+    id: status
     name: "${friendly_name} Status"
 
   - platform: gpio
+    id: power_button
     pin:
       number: 3
       mode: INPUT_PULLUP
